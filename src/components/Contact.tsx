@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { MessageSquare, Phone, MapPin, Send } from "lucide-react";
 
 export default function Contact() {
-  const waNumber = import.meta.env.VITE_WHATSAPP_NUMBER;
+  const waNumber = "6281230860124";
   const waLink = `https://wa.me/${waNumber}?text=Halo%20Nayaka%20Labs,%20saya%20ingin%20konsultasi%20mengenai%20layanan%20pembuatan%20website/aplikasi.`;
 
   return (
