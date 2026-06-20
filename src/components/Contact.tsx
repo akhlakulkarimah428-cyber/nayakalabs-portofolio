@@ -274,8 +274,8 @@ export default function Contact({ prefilledPlan }: ContactProps) {
                     >
                       <option value="Web Platform Development">SaaS & Custom Web Application Development</option>
                       <option value="Mobile App Development">Mobile App Development (iOS & Android)</option>
-                      <option value="Enterprise AI Solutions">Enterprise AI Integration & Automation</option>
-                      <option value="Cloud Security & Devops">Kubernetes & DevOps Cloud Architecture Office</option>
+                      <option value="Desktop App Development">Desktop App Development</option>
+                      <option value="SEO Optimization">SEO Optimization</option>
                       <option value="Lainnya">Lainnya / Konsultasi Luas</option>
                     </select>
                   </div>
