@@ -160,6 +160,7 @@ const filteredPortfolios =
                         </div>
                       )}
                     </div>
+                    {/* add portofolio categories to array */}
 
                     {/* Info and stats details */}
                     <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between text-left">
