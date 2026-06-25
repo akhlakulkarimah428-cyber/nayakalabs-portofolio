@@ -42,16 +42,6 @@ export default function Hero({ onContactClick, onServicesClick }: HeroProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           <div className="lg:col-span-7 flex flex-col text-left">
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex self-start items-center gap-2 bg-slate-900 border border-slate-800 rounded-full py-1.5 px-4 mb-6 hover:bg-slate-800/80 transition-colors cursor-default"
-            >
-              <span className="font-sans font-bold text-[10px] tracking-wider text-slate-300 uppercase">
-                Premium Digital Studio di Bondowoso
-              </span>
-            </motion.div>
 
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -88,7 +78,6 @@ export default function Hero({ onContactClick, onServicesClick }: HeroProps) {
                 className="group flex items-center gap-2.5 font-display font-bold text-xs uppercase tracking-wider bg-sky-500 hover:bg-sky-400 text-slate-950 px-7 py-4 rounded-full transition-all duration-200 shadow-lg shadow-sky-500/10 cursor-pointer"
               >
                 Konsultasi Gratis
-                <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
               </button>
 
               <button
