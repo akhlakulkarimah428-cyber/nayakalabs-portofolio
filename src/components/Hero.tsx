@@ -116,7 +116,9 @@ export default function Hero({ onContactClick, onServicesClick }: HeroProps) {
             </motion.div>
           </div>
 
-          <div className="lg:col-span-5 relative">
+
+          {/* //disable */}
+          {/* <div className="lg:col-span-5 relative">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -314,7 +316,7 @@ export default function Hero({ onContactClick, onServicesClick }: HeroProps) {
                 </span>
               </div>
             </motion.div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
