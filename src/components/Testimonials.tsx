@@ -9,7 +9,8 @@ export default function Testimonials() {
         {/* Core Header Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16">
           <div className="lg:col-span-8 space-y-4">
-            <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/50 border border-sky-900/30 px-3.5 py-1.5 rounded-full inline-block">
+            {/* <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/50 border border-sky-900/30 px-3.5 py-1.5 rounded-full inline-block"> */}
+            <span className="text-xs font-bold uppercase tracking-widest text-sky-400 font-sans block">
               Testimoni Klien
             </span>
             <h2 className="font-display font-black text-3xl sm:text-4xl text-white leading-tight">

@@ -111,8 +111,8 @@ export default function Services({ onContactClick }: ServicesProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/50 border border-sky-900/30 px-3.5 py-1.5 rounded-full inline-block">
+        <div className="text-center max-w-4xl mx-auto mb-16 space-y-4">
+          <span className="text-xs font-bold uppercase tracking-widest text-sky-400 font-sans block">
             Layanan Utama Kami
           </span>
           <h2 className="font-display font-black text-3xl sm:text-4xl text-white">

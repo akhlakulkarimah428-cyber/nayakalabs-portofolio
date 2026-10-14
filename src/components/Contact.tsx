@@ -79,7 +79,8 @@ export default function Contact({ prefilledPlan }: ContactProps) {
           {/* Column Left: Contact Info (5 cols) */}
           <div className="lg:col-span-5 text-left space-y-8 flex flex-col justify-between">
             <div className="space-y-6">
-              <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/50 border border-sky-900/30 px-3.5 py-1.5 rounded-full inline-block">
+              {/* <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/50 border border-sky-900/30 px-3.5 py-1.5 rounded-full inline-block"> */}
+              <span className="text-xs font-bold uppercase tracking-widest text-sky-400 font-sans block">
                 Hubungi Kami Sekarang
               </span>
               <h2 className="font-display font-black text-3xl sm:text-4xl text-white leading-tight">

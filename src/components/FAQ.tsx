@@ -15,7 +15,8 @@ export default function FAQ() {
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
-          <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/50 border border-sky-900/30 px-3.5 py-1.5 rounded-full inline-block">
+          {/* <span className="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-950/50 border border-sky-900/30 px-3.5 py-1.5 rounded-full inline-block"> */}
+          <span className="text-xs font-bold uppercase tracking-widest text-sky-400 font-sans block">
             Pertanyaan Umum (FAQ)
           </span>
           <h2 className="font-display font-black text-3xl sm:text-4xl text-white leading-tight">

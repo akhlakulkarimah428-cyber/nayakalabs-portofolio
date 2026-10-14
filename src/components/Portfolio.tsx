@@ -181,7 +181,8 @@ export default function Portfolio({ onContactClick }: PortfolioProps) {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="mb-16 max-w-3xl space-y-4 text-left">
-          <span className="inline-block rounded-full border border-sky-900/30 bg-sky-950/50 px-3.5 py-1.5 text-xs font-bold uppercase tracking-widest text-sky-400">
+          <span className="text-xs font-bold uppercase tracking-widest text-sky-400 font-sans block">
+          {/* <span className="inline-block rounded-full border border-sky-900/30 bg-sky-950/50 px-3.5 py-1.5 text-xs font-bold uppercase tracking-widest text-sky-400"> */}
             Fokus Karya &amp; Studi Kasus
           </span>
 
