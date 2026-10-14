@@ -84,8 +84,8 @@ export default function Hero({ onContactClick, onServicesClick }: HeroProps) {
                 onClick={onServicesClick}
                 className="flex items-center gap-2.5 font-display font-bold text-xs uppercase tracking-wider bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-200 px-7 py-4 rounded-full transition-all cursor-pointer shadow-sm hover:shadow"
               >
-                <Play className="w-3.5 h-3.5 fill-slate-200 text-slate-200" />
                 Lihat Layanan
+                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
             </motion.div>
 
