@@ -110,6 +110,19 @@ export default function Hero({ onContactClick, onServicesClick }: HeroProps) {
           </motion.ul>
         </div>
       </div>
+
+    {/* Bottom Shadow - Blend into Trusted Logos */}
+<div
+  aria-hidden="true"
+  className="pointer-events-none absolute inset-x-0 bottom-0 z-20 h-28"
+>
+  {/* Fade ke warna section Mitra */}
+  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/70 to-slate-950" />
+
+  {/* Glow cyan sangat tipis */}
+  <div className="absolute bottom-0 left-1/2 h-12 w-1/2 -translate-x-1/2 rounded-full bg-sky-500/5 blur-3xl" />
+</div>
+
     </section>
   );
 }
