@@ -95,84 +95,143 @@ export const ABOUT_STATS = [
 
 export const PORTFOLIOS: PortfolioItem[] = [
   {
+    id: "nayaka-pet",
+    title: "Nayaka Pet — Veterinary Clinic Management System",
+    category: ["Web App"],
+    client: "Proyek Sistem Informasi Klinik Hewan",
+    image: "/portofolio/nayaka-pet.png",
+    summary:
+      "Nayaka Pet merupakan sistem informasi manajemen klinik hewan berbasis web yang dirancang untuk mengintegrasikan proses administrasi dan pelayanan klinik dalam satu platform. Sistem ini menyediakan fitur dashboard, booking dan antrean pemeriksaan, pengelolaan data pasien hewan dan pemilik, pencatatan anamnesis, diagnosis, tindakan medis, serta pengelolaan staf, pengguna, dan ruang pemeriksaan. Selain itu, tersedia modul inventaris dan kasir (POS) untuk mendukung pengelolaan kebutuhan operasional klinik secara lebih terstruktur.",
+    metrics:
+      "Integrasi administrasi, pemeriksaan pasien, pengelolaan inventaris, dan transaksi dalam satu sistem untuk mendukung operasional klinik hewan yang lebih efisien dan terorganisir.",
+    techs: ["Laravel", "Web Admin", "MySQL"],
+    link: "#",
+  },
+  {
+    id: "kenal-komputer",
+    title: "Kenal Komputer — Online Learning Platform",
+    category: ["Web App"],
+    client: "Kenal Komputer",
+    image: "/portofolio/kenal-komputer.png",
+    summary:
+      "Kenal Komputer merupakan platform pembelajaran komputer berbasis web yang dirancang untuk membantu pengguna membangun keterampilan digital melalui proses belajar yang interaktif dan terstruktur. Platform ini menghadirkan 10 sesi pembelajaran yang dilengkapi materi, mini game edukatif, latihan praktik, pemantauan progres, serta ujian akhir. Materi pembelajaran mencakup dasar komputer, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, desain digital menggunakan Canva, email, dan pemanfaatan AI untuk produktivitas.",
+    metrics:
+      "Integrasi materi pembelajaran, latihan interaktif, mini game, dan evaluasi akhir untuk mendukung proses belajar komputer yang lebih menarik, terarah, dan mudah dipantau.",
+    techs: ["HTML", "CSS", "JavaScript", "Educational Game"],
+    link: "#",
+  },
+  {
+    id: "megasari-bumi-indonesia",
+    title: "Megasari Bumi Indonesia — Coffee Export Website",
+    category: ["Web App"],
+    client: "Megasari Bumi Indonesia",
+    image: "/portofolio/megasari.png",
+    summary:
+      "Megasari Bumi Indonesia merupakan platform digital yang dirancang untuk memperkenalkan perusahaan dan memasarkan produk kopi spesialti Indonesia kepada pasar global. Website ini menyajikan informasi profil perusahaan, katalog produk, karakteristik kopi, keunggulan layanan, testimoni mitra, serta artikel seputar industri kopi. Platform ini juga dilengkapi Web Admin untuk memudahkan pengelolaan konten dan informasi produk sehingga pembaruan informasi dapat dilakukan secara lebih praktis dan terstruktur.",
+    metrics:
+      "Penyajian profil perusahaan dan katalog kopi dalam satu platform digital, didukung pengelolaan konten terpusat untuk mempermudah pembaruan informasi bisnis.",
+    techs: ["Laravel", "Web Admin"],
+    link: "#",
+  },
+  {
+    id: "campwaste",
+    title: "CampWaste — Campus Waste Management System",
+    category: ["Mobile App", "Web App"],
+    client: "Proyek Kampus",
+    image: "/portofolio/campuswaste.jpg",
+    summary:
+      "CampWaste merupakan sistem informasi pengelolaan limbah kampus berbasis mobile dan web yang dirancang untuk mendukung pencatatan, pemantauan, dan pelaporan limbah secara terintegrasi. Dalam proyek ini, saya berperan sebagai Mobile Developer dengan mengembangkan aplikasi menggunakan Flutter serta mengintegrasikannya dengan REST API. Sistem ini mendukung pencatatan data limbah, informasi lokasi dan waktu, serta pemantauan Tempat Penampungan Sementara (TPS). Selain itu, teknologi YOLO11 dan TensorFlow Lite digunakan untuk mendukung estimasi jumlah kantong limbah berdasarkan gambar.",
+    metrics:
+      "Integrasi aplikasi mobile dan layanan backend untuk mendukung pencatatan limbah, pemantauan TPS, serta penyajian data yang membantu proses pengelolaan limbah kampus.",
+    techs: [
+      "Flutter",
+      "Dart",
+      "REST API",
+      "Laravel",
+      "MySQL",
+      "YOLO11",
+      "TensorFlow Lite",
+    ],
+    link: "#",
+  },
+  {
     id: "erp-travel-umroh",
     title: "ERP Travel & Umroh",
     category: ["Web App"],
     client: "Project Internal / Client Confidential",
     image: "/portofolio/travel.jpeg",
     summary:
-      "Sistem manajemen terintegrasi untuk mengotomasi alur pendaftaran jamaah, pendataan administrasi, hingga pelaporan keberangkatan secara real-time dan terstruktur.",
+      "ERP Travel & Umroh merupakan sistem manajemen berbasis web yang dirancang untuk mengintegrasikan proses administrasi perjalanan ibadah, mulai dari pendaftaran jamaah hingga pengelolaan data dan pelaporan keberangkatan. Sistem ini membantu memusatkan informasi operasional dalam satu platform sehingga proses administrasi dapat dikelola secara lebih terstruktur dan memudahkan pemantauan data oleh pihak terkait.",
     metrics:
-      "Mempercepat proses operasional dan mengurangi input manual di beberapa tahap administratif.",
+      "Sentralisasi data jamaah dan proses administrasi perjalanan untuk mendukung pengelolaan operasional yang lebih terorganisir dan mengurangi ketergantungan pada pencatatan manual.",
     techs: ["React", "Firebase", "Dashboard", "Automation"],
     link: "#",
   },
   {
     id: "loka-kasir-pos",
     title: "Loka Kasir POS",
-    category: ["Mobile App","Desktop App"],
+    category: ["Desktop App"],
     client: "UMKM Bondowoso",
     image: "/portofolio/loka_kasir.png",
     summary:
-      "Aplikasi kasir desktop yang dirancang untuk membantu operasional UMKM dengan alur transaksi yang cepat, sederhana, dan dukungan cetak struk yang stabil.",
+      "Loka Kasir POS merupakan aplikasi kasir berbasis desktop yang dirancang untuk membantu UMKM mengelola transaksi penjualan sehari-hari. Aplikasi ini menyediakan alur transaksi yang sederhana, pencatatan penjualan, serta fitur pencetakan struk untuk mendukung proses pembayaran yang praktis. Dengan antarmuka yang berfokus pada kebutuhan operasional, aplikasi ini ditujukan untuk mempermudah aktivitas kasir pada bisnis skala kecil hingga menengah.",
     metrics:
-      "Dibuat ringan, mudah digunakan, dan cocok untuk kebutuhan transaksi harian bisnis kecil hingga menengah.",
-    techs: ["Netbeans", "SQLite", "POS", "Receipt Printing"],
+      "Penyederhanaan proses transaksi penjualan dan pencetakan struk dalam satu aplikasi desktop untuk mendukung operasional kasir harian UMKM.",
+    techs: ["NetBeans", "SQLite", "POS", "Receipt Printing"],
     link: "#",
   },
   {
     id: "my-enviro-hub",
-    title: "My Enviro Hub",
-    category: ["Web App","Mobile App"],
+    title: "My Enviro Hub — Operations Management Platform",
+    category: ["Web App", "Mobile App"],
     client: "Outsourcing Operations",
     image: "/portofolio/enviro.jpg",
     summary:
-      "Platform mobile untuk mendukung manajemen operasional outsourcing seperti pest control dan security, dengan akses data yang praktis dan mobile-first.",
+      "My Enviro Hub merupakan platform digital untuk mendukung pengelolaan operasional layanan outsourcing, termasuk bidang pest control dan security. Platform ini dirancang untuk mempermudah akses informasi pekerjaan, mendukung koordinasi antara tim lapangan dan admin, serta membantu pemantauan aktivitas operasional melalui perangkat mobile dan layanan pendukung berbasis web.",
     metrics:
-      "Membantu tim lapangan dan admin memantau pekerjaan secara lebih cepat dan terorganisir.",
+      "Dukungan digitalisasi alur kerja operasional untuk mempermudah akses informasi, koordinasi tim, dan pemantauan aktivitas lapangan secara lebih terorganisir.",
     techs: ["Flutter", "Mobile Workflow", "Field Operations", "2026"],
     link: "#",
   },
-    {
+  {
     id: "sip-coffee-trace",
-    title: "SIP Coffee",
+    title: "SIP Coffee — Coffee Traceability Platform",
     category: ["Web App", "Mobile App"],
     client: "Bondowoso Coffee Ecosystem",
     image: "/portofolio/sipcoffee.png",
     summary:
-      "Sistem ketertelusuran distribusi kopi Bondowoso dari petani hingga proses ekspor, dirancang agar alur logistik lebih transparan, rapi, dan mudah dipantau.",
+      "SIP Coffee merupakan platform digital yang dirancang untuk mendukung ketertelusuran distribusi kopi Bondowoso, mulai dari petani hingga proses ekspor. Sistem ini membantu menyajikan informasi perjalanan produk dan alur distribusi secara lebih transparan sehingga data dalam rantai pasok dapat ditelusuri dan dipantau oleh pihak terkait.",
     metrics:
-      "Memperkuat traceability produk dan membantu menjaga kepercayaan sepanjang rantai distribusi.",
+      "Penyediaan informasi ketertelusuran produk untuk mendukung transparansi distribusi, pemantauan rantai pasok, dan kepercayaan antar pihak dalam ekosistem kopi.",
     techs: ["QR Code", "Logistics", "Traceability", "Supply Chain"],
     link: "#",
   },
   {
     id: "pandawa-gis",
-    title: "PANDAWA GIS",
+    title: "PANDAWA GIS — Geographic Information System",
     category: ["Web App"],
     client: "Kabupaten Bondowoso",
     image: "/portofolio/pandawaa.png",
     summary:
-      "Sistem informasi geospasial untuk memetakan potensi komoditas daerah secara visual, interaktif, dan mudah dianalisis oleh pengguna maupun pemangku kebijakan.",
+      "PANDAWA GIS merupakan sistem informasi geospasial berbasis web yang dirancang untuk menyajikan persebaran potensi komoditas daerah melalui visualisasi peta interaktif. Sistem ini membantu pengguna mengeksplorasi informasi berdasarkan wilayah serta menyediakan representasi data spasial yang lebih mudah dipahami untuk mendukung analisis dan perencanaan pembangunan daerah.",
     metrics:
-      "Menyajikan data spasial secara lebih informatif untuk mendukung pengambilan keputusan berbasis wilayah.",
+      "Visualisasi data potensi komoditas berdasarkan wilayah untuk mempermudah eksplorasi informasi spasial dan mendukung pengambilan keputusan berbasis data.",
     techs: ["GIS", "Visualization", "Web Mapping", "Data Dashboard"],
     link: "#",
   },
- {
-  id: "pertanian-rajawali",
-  title: "GrowHarvest Platform",
-  category: ["Web App", "Mobile App"],
-  client: "Toko Pertanian Rajawali",
-  image: "/portofolio/rajawali.png",
-  summary:
-    "GrowHarvest merupakan platform digital berbasis web dan mobile yang dirancang untuk membantu operasional toko pertanian menjadi lebih efisien. Sistem ini memudahkan pengelolaan stok, pencatatan transaksi, perhitungan laba secara otomatis, serta penyajian laporan dan analisis bisnis yang mendukung pengambilan keputusan secara lebih cepat dan akurat.",
-  metrics:
-    "Digitalisasi proses operasional, peningkatan akurasi data transaksi, dan penyediaan laporan bisnis real-time untuk mendukung keputusan yang lebih tepat.",
-  techs: ["Laravel", "Flutter", "Firebase", "Web Dashboard"],
-  link: "#",
-}
-
+  {
+    id: "pertanian-rajawali",
+    title: "GrowHarvest Platform",
+    category: ["Web App", "Mobile App"],
+    client: "Toko Pertanian Rajawali",
+    image: "/portofolio/rajawali.png",
+    summary:
+      "GrowHarvest merupakan platform digital berbasis web dan mobile yang dirancang untuk membantu pengelolaan operasional toko pertanian. Sistem ini mendukung pengelolaan stok barang, pencatatan transaksi penjualan, perhitungan laba otomatis, serta penyajian laporan dan analisis bisnis. Integrasi fitur tersebut membantu pemilik usaha memantau aktivitas operasional dan memperoleh informasi yang lebih terstruktur sebagai dasar pengambilan keputusan.",
+    metrics:
+      "Integrasi pengelolaan stok, transaksi, perhitungan laba, dan laporan bisnis untuk membantu meningkatkan keteraturan pencatatan serta mendukung pemantauan operasional usaha.",
+    techs: ["Laravel", "Flutter", "Firebase", "Web Dashboard"],
+    link: "#",
+  },
 ];
 
 export const WHY_CHOOSE_US: Advantage[] = [
